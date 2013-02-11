@@ -5,33 +5,16 @@ body { 	font-family:"arial",Sans-Serif; }
   position: relative; 
   top: 0;
   height: 65px;
-/*  -webkit-border-bottom-left-radius:20px; 
-  -webkit-border-bottom-right-radius:20px;
-  -moz-border-radius-bottomleft:20px;
-  -moz-border-radius-bottomright:20px; 
-  border: 2px solid #000; padding: 10px;";*/
   margin:0;
   width: 98%; 
   margin-left: auto ;
   margin-right: auto ;
 }
 
-#menu{
-  -moz-border-radius:8px;
-  -webkit-border-radius:8px;
-  float: right ;
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.0, red),
-                color-stop(0.5, #CC0000), color-stop(1.0, red));
-  -webkit-box-shadow:2px 2px 20px gray;
-  padding: 10px ;
-  position: relative;
-}
-
 #star{
-	width:200px;
-	float: left;
-	position:absolute;
-	top:65px;
+  width:200px;
+  float: left;
+  position:absolute;
 }
 
 #left-column{
@@ -40,22 +23,10 @@ body { 	font-family:"arial",Sans-Serif; }
 }
 
 #content {
+  vertical-align: top;
   width: 1020px ;
-  margin-left: 250px ;
   margin-right: auto ;
-  padding-top: 10px ; 
-  top: 50px;
   position: absolute;
-}
-
-#events{
-   width:60%;
-  -moz-border-radius:8px;
-  -webkit-border-radius:8px;
-  float: right ;
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.0, red),
-                color-stop(0.5, #CC0000), color-stop(1.0, red));
-  -webkit-box-shadow:2px 2px 20px gray;
 }
 
 A:link { 
@@ -79,19 +50,16 @@ A:visited {
   font-size: 20px;
 }
 
-.nye_flyer {
-  width: 1020px;
-  height : auto;
-  -moz-box-shadow: 5px 5px 8px #888;
-  -webkit-box-shadow: 5px 5px 8px #888;
-}
-
-.left{
+.left {
   float:left;
 }
 
-.right{
+.right {
   float:right;
+}
+
+.big-smile {
+  font-size: 500px;
 }
 
 .social {

@@ -6,18 +6,9 @@
     <%= stylesheet_link_tag 'application' %>
   </head>
   <body>
-    <%= image_tag "lasthope.png" %>
-    <div id="star">
-      <%= image_tag "last_hope_star.png" %>
-      <%= image_tag "last_hope_star_2.png" %>
-      <%= image_tag "last_hope_star_3.png" %>
-      <%= image_tag "last_hope_star_4.png" %>
-      <%= image_tag "last_hope_star_5.png" %>
-    </div>
-    <div>
-      <div id="content">
-        <%= yield %>
-      </div>
+    <%= render 'shared/social' %>
+    <div id="content">
+      <%= yield %>
     </div>
   </body>
 </html>
