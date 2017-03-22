@@ -1,0 +1,83 @@
+body { 	font-family:"arial",Sans-Serif; }
+
+#header{
+  float: left ;
+  position: relative; 
+  top: 0;
+  height: 65px;
+  margin:0;
+  width: 98%; 
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#star{
+  width:200px;
+  float: left;
+  position:absolute;
+}
+
+#left-column{
+  position:relative;
+  float:left;
+}
+
+#content {
+  vertical-align: top;
+  width: 1020px ;
+  margin-right: auto ;
+  position: absolute;
+}
+
+A:link { 
+  text-decoration: none ;
+  color: black; 
+  font-family: monotype sorts, arial, serif ; 
+  font-size: 20px;
+} 
+
+A:active { 
+  text-decoration: none ;
+  color: black; 
+  font-family: monotype sorts, arial, serif ; 
+  font-size: 20px;
+}
+
+A:visited { 
+  text-decoration: none ;
+  color: black; 
+  font-family: monotype sorts, arial, serif ; 
+  font-size: 20px;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.big-smile {
+  font-size: 600px;
+}
+
+.social {
+ vertical-align: top;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+ */
+
+
